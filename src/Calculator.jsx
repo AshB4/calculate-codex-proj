@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-function App() {
+function Calculator() {
   const [numA, setNumA] = useState("")
   const [numB, setNumB] = useState("")
   const [operation, setOperation] = useState("+")
@@ -93,4 +93,4 @@ function App() {
   )
 }
 
-export default App
+export default Calculator
